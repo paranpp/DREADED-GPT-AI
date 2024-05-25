@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || 'DREADED';
+let botname = process.env.BOTNAME || 'PARAN MURMU';
 
 const owner = process.env.DEV || '254114018035'; // This will send a notification once the bot reconnects
 const {
@@ -24,7 +24,7 @@ const FileType = require("file-type");
 const figlet = require("figlet");
 const packname = process.env.STICKER_PACKNAME;
 const _ = require("lodash");
-const PhoneNumber = require("awesome-phonenumber");
+const PhoneNumber = require("919002949412");
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif'); 
  const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
